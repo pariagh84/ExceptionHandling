@@ -11,15 +11,15 @@
 
 ## ساختار پروژه
 
-- `Book.java`: کلاسی برای تعریف یک کتاب با ویژگی‌های عنوان و تعداد صفحات  
-- `Library.java`: کلاسی برای مدیریت مجموعه کتاب‌ها و عملیات مربوط به آن‌ها  
+- `LibraryManagement.Book.java`: کلاسی برای تعریف یک کتاب با ویژگی‌های عنوان و تعداد صفحات  
+- `LibraryManagement.Library.java`: کلاسی برای مدیریت مجموعه کتاب‌ها و عملیات مربوط به آن‌ها  
 - `Main.java`: کلاس اصلی که اجرای برنامه و تست عملکردها را شامل می‌شود  
-- `BookNotFoundException.java`: استثنای سفارشی برای زمانی که کتابی پیدا نشود  
-- `EmptyLibraryException.java`: استثنای سفارشی برای زمانی که کتابخانه خالی باشد  
-- `InvalidBookException.java`: استثنای سفارشی برای اعتبارسنجی کتاب‌های نامعتبر
+- `Exceptions.BookNotFoundException.java`: استثنای سفارشی برای زمانی که کتابی پیدا نشود  
+- `Exceptions.EmptyLibraryException.java`: استثنای سفارشی برای زمانی که کتابخانه خالی باشد  
+- `Exceptions.InvalidBookException.java`: استثنای سفارشی برای اعتبارسنجی کتاب‌های نامعتبر
 
 ## خروجی نمونه
-Library is empty
+LibraryManagement.Library is empty
 
 Page count must be positive
 
@@ -27,17 +27,17 @@ Title cannot be empty
 
 Title cannot be empty
 
-Book should not be null
+LibraryManagement.Book should not be null
 
-Book should not be null
+LibraryManagement.Book should not be null
 
-Book should not be null
+LibraryManagement.Book should not be null
 
-Books in the Library:
+Books in the LibraryManagement.Library:
 Java Programming(300)
 
-Successfully borrowed Book Java Programming(300)
+Successfully borrowed LibraryManagement.Book Java Programming(300)
 
-Cannot return. Book with title Clean Code not found
+Cannot return. LibraryManagement.Book with title Clean Code not found
 
-Successfully returned Book Java Programming(300)
+Successfully returned LibraryManagement.Book Java Programming(300)
