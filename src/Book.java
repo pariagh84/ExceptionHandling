@@ -7,11 +7,11 @@ public class Book {
         if (title == null || title.isEmpty()) {
             throw new IllegalArgumentException("Title cannot be empty");
         }
-        this.title = title;
         if (pageCount <= 0) {
             throw new IllegalArgumentException("Page count must be positive");
         }
         this.pageCount = pageCount;
+        this.title = title;
     }
 
     @Override
