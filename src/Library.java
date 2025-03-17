@@ -28,18 +28,20 @@ public class Library {
         if (books.isEmpty()) {
             throw new EmptyLibraryException("Library is empty,no books to borrow");
         }
-        if (findBook(title) == null) {
+        Book book = findBook(title);
+        if (book == null) {
             throw new BookNotFoundException("Book with title " + title + " not found");
         }
-        System.out.println("Successfully borrowed Book " + findBook(title).toString());
+        System.out.println("Successfully borrowed Book " + book.toString());
         System.out.println();
     }
 
     public void returnBook(String title) throws BookNotFoundException {
-        if (findBook(title) == null) {
+        Book book = findBook(title);
+        if (book == null) {
             throw new BookNotFoundException("Cannot return.Book with title " + title + " not found");
         }
-        System.out.println("Successfully returned Book " + findBook(title).toString());
+        System.out.println("Successfully returned Book " + book.toString());
         System.out.println();
     }
 
