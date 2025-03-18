@@ -18,7 +18,10 @@ public class Book {
 
     @Override
     public String toString() {
-        return title + "(" + pageCount + ")";
+        if (pageCount == 1) {
+            return title + "(" + pageCount + " page)";
+        }
+        return title + "(" + pageCount + " pages)";
     }
 
     //Getters
