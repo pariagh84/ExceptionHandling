@@ -34,10 +34,10 @@ Book should not be null
 Book should not be null
 
 Books in the library:
-Java Programming(300)
+Java Programming(300 pages)
 
-Successfully borrowed Java Programming(300)
+Successfully borrowed Java Programming(300 pages)
 
 Cannot return.Book with title Clean Code not found
 
-Successfully returned Java Programming(300)
+Successfully returned Java Programming(300 pages)
