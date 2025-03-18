@@ -19,7 +19,7 @@
 - `Exceptions.InvalidBookException.java`: استثنای سفارشی برای اعتبارسنجی کتاب‌های نامعتبر
 
 ## خروجی نمونه
-LibraryManagement.Library is empty
+Library is empty
 
 Page count must be positive
 
@@ -27,17 +27,17 @@ Title cannot be empty
 
 Title cannot be empty
 
-LibraryManagement.Book should not be null
+Book should not be null
 
-LibraryManagement.Book should not be null
+Book should not be null
 
-LibraryManagement.Book should not be null
+Book should not be null
 
-Books in the LibraryManagement.Library:
+Books in the library:
 Java Programming(300)
 
-Successfully borrowed LibraryManagement.Book Java Programming(300)
+Successfully borrowed Java Programming(300)
 
-Cannot return. LibraryManagement.Book with title Clean Code not found
+Cannot return.Book with title Clean Code not found
 
-Successfully returned LibraryManagement.Book Java Programming(300)
+Successfully returned Java Programming(300)
